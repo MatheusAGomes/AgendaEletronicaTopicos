@@ -1,0 +1,78 @@
+#formulario{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 2%;
+    color: white;
+    font-family: Corbel;
+}
+li{
+    padding-bottom: 10px;
+}
+#form{
+    display: flex;
+}
+
+#btninserir{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add {
+	background-color:white;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:lightblue;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:20px 25px;
+	text-decoration:none;
+    border: white;
+}
+
+
+.add:active {
+	position:relative;
+	top:1px;
+}
+
+        #enviar{
+            margin-left: 1.5%;
+        }
+
+.myButton {
+	background-color:white;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:lightblue;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 20px;
+	text-decoration:none;
+    border: white;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.cont{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    align-content: space-between;
+}
+.linha{
+    border: 2px solid white;
+    padding: 10px;
+
+}
