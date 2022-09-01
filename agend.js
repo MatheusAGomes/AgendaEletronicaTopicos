@@ -35,9 +35,17 @@ function onLoad() {
 
 function deleteLi(id){
 
-    console.log(id)
-   // idord = array.indexOf(id);
-    array.splice(id,1);
+    let  iddaclasse = array[id].Id;
+    console.log(iddaclasse)
+    var idparaeliminar
+    for (let index = 0; index < array.length; index++) {
+        if (array[index].Id == iddaclasse) {
+            idparaeliminar = index;
+        }
+        
+    }
+
+    array.splice(idparaeliminar,1);
     console.log(array)
     document.getElementById("cont").innerHTML = '';
     listarAgenda(array)
